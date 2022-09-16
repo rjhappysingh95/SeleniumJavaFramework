@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-15T17:37:20 IST" name="Suite" finished-at="2022-09-15T17:37:37 IST" duration-ms="16963">
+    <groups>
+    </groups>
+    <test started-at="2022-09-15T17:37:20 IST" name="Test" finished-at="2022-09-15T17:37:37 IST" duration-ms="16963">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.LoginTest@61df66b6]" started-at="2022-09-15T17:37:19 IST" name="init" finished-at="2022-09-15T17:37:20 IST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="LoginLockUserTest(java.lang.String)[pri:1, instance:tests.LoginTest@61df66b6]" started-at="2022-09-15T17:37:20 IST" name="LoginLockUserTest" finished-at="2022-09-15T17:37:27 IST" duration-ms="7345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLockUserTest -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:tests.LoginTest@61df66b6]" started-at="2022-09-15T17:37:27 IST" name="closetest" finished-at="2022-09-15T17:37:29 IST" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+        <test-method signature="LoginInvalidUserTest(java.lang.String)[pri:2, instance:tests.LoginTest@61df66b6]" started-at="2022-09-15T17:37:29 IST" name="LoginInvalidUserTest" finished-at="2022-09-15T17:37:36 IST" duration-ms="7012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidUserTest -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:tests.LoginTest@61df66b6]" started-at="2022-09-15T17:37:36 IST" name="closetest" finished-at="2022-09-15T17:37:37 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@61df66b6]" started-at="2022-09-15T17:37:37 IST" name="teardown" finished-at="2022-09-15T17:37:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
