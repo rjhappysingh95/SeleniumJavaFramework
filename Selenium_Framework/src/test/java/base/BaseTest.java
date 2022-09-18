@@ -18,7 +18,6 @@ public class BaseTest {
 	@BeforeSuite
 	public void init() {
 		WebDriverManager.chromedriver().setup();
-		WebDriverManager.firefoxdriver().setup();
 	}
 	
 	
